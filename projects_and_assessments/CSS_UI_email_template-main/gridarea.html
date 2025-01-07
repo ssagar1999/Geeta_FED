@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 250px 250px 250px;
+      grid-template-rows: 250px 250px 250px;
+      grid-template-areas:
+        'sivendu sivendu .'
+        'kunal kunal manis'
+        'ayusssss ayusssss .';
+      grid-gap: 10px;
+      background-color: lightgreen;
+      padding: 10px;
+    }
+    .grid-item {
+      background-color: white;
+      border: 1px solid #000;
+      text-align: center;
+      padding: 20px;
+    }
+    .header {
+      grid-area: sivendu;
+    }
+    .sidebar {
+      grid-area: kunal;
+    }
+    .content {
+      grid-area: manis;
+    }
+    .footer {
+      grid-area: ayusssss;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item header">sixvendu</div>
+    <div class="grid-item sidebar">kunad</div>
+    <div class="grid-item content">muni</div>
+    <div class="grid-item footer">chocho tik cha ethi</div>
+  </div>
+</body>
+</html>
