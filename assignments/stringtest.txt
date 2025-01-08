@@ -1,0 +1,30 @@
+String Test Questions
+Write a function to reverse a given string.
+Example: Input: "hello", Output: "olleh"
+
+Write a function to count the number of vowels in a string.
+Example: Input: "apple", Output: 2
+
+Write a function to check if a string is a palindrome.
+Example: Input: "racecar", Output: true
+
+Write a function to find the first occurrence of a character in a string.
+Example: Input: "hello", "l", Output: 2
+
+Write a function to convert a string to uppercase.
+Example: Input: "hello", Output: "HELLO"
+
+Write a function to replace all occurrences of a substring in a string.
+Example: Input: "apple apple", "apple", "orange", Output: "orange orange"
+
+Write a function to count the number of words in a sentence.
+Example: Input: "Hello world", Output: 2
+
+Write a function to find the length of the longest word in a sentence.
+Example: Input: "The quick brown fox", Output: 5
+
+Write a function to check if a string starts with a specific substring.
+Example: Input: "JavaScript", "Java", Output: true
+
+Write a function to concatenate two strings.
+Example: Input: "hello", "world", Output: "helloworld"
